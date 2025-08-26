@@ -6,13 +6,17 @@ This project was inspired by a Kaggle competition and achieved promising accurac
 
 ---
 
-##  Dataset
+## 📦 Dataset
 
 I used the **Chest X-ray Images for Pneumonia Detection with Deep Learning** dataset, created by Tolga Dincer. It contains:
 
 - **5,856** validated chest X-ray images
-- Clearly divided into independent **training** and **testing** sets by patient
-- Suitable for binary classification: **Normal** vs **Pneumonia**
+- Organized into **train** and **test** folders
+- Two categories: **Normal** vs **Pneumonia**
+
+**Note:**  
+For this project, I used **only the training data** to train my model.  
+For quick testing, I selected a **single random image** instead of using the full test set.
 
 **Download it here:**  
 [Chest X-ray Images for Pneumonia Detection with Deep Learning – Kaggle](https://www.kaggle.com/datasets/tolgadincer/labeled-chest-xray-images)
